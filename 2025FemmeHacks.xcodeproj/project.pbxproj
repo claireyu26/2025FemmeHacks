@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9A3A702D56AC3800A2098C /* _025FemmeHacksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A6F2D56AC3800A2098C /* _025FemmeHacksApp.swift */; };
+		3F9A3A722D56AC3800A2098C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A712D56AC3800A2098C /* ContentView.swift */; };
+		3F9A3A742D56AC3C00A2098C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A3A732D56AC3C00A2098C /* Assets.xcassets */; };
+		3F9A3A772D56AC3C00A2098C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A3A762D56AC3C00A2098C /* Preview Assets.xcassets */; };
+		3F9A3A812D56AC3D00A2098C /* _025FemmeHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A802D56AC3D00A2098C /* _025FemmeHacksTests.swift */; };
+		3F9A3A8B2D56AC3D00A2098C /* _025FemmeHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A8A2D56AC3D00A2098C /* _025FemmeHacksUITests.swift */; };
+		3F9A3A8D2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A8C2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9A3A7D2D56AC3D00A2098C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9A3A642D56AC3800A2098C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9A3A6B2D56AC3800A2098C;
+			remoteInfo = 2025FemmeHacks;
+		};
+		3F9A3A872D56AC3D00A2098C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F9A3A642D56AC3800A2098C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9A3A6B2D56AC3800A2098C;
+			remoteInfo = 2025FemmeHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9A3A6C2D56AC3800A2098C /* 2025FemmeHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2025FemmeHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9A3A6F2D56AC3800A2098C /* _025FemmeHacksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _025FemmeHacksApp.swift; sourceTree = "<group>"; };
+		3F9A3A712D56AC3800A2098C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F9A3A732D56AC3C00A2098C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9A3A762D56AC3C00A2098C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F9A3A7C2D56AC3D00A2098C /* 2025FemmeHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2025FemmeHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9A3A802D56AC3D00A2098C /* _025FemmeHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _025FemmeHacksTests.swift; sourceTree = "<group>"; };
+		3F9A3A862D56AC3D00A2098C /* 2025FemmeHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2025FemmeHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9A3A8A2D56AC3D00A2098C /* _025FemmeHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _025FemmeHacksUITests.swift; sourceTree = "<group>"; };
+		3F9A3A8C2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _025FemmeHacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9A3A692D56AC3800A2098C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A3A792D56AC3D00A2098C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A3A832D56AC3D00A2098C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9A3A632D56AC3800A2098C = {
+			isa = PBXGroup;
+			children = (
+				3F9A3A6E2D56AC3800A2098C /* 2025FemmeHacks */,
+				3F9A3A7F2D56AC3D00A2098C /* 2025FemmeHacksTests */,
+				3F9A3A892D56AC3D00A2098C /* 2025FemmeHacksUITests */,
+				3F9A3A6D2D56AC3800A2098C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9A3A6D2D56AC3800A2098C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9A3A6C2D56AC3800A2098C /* 2025FemmeHacks.app */,
+				3F9A3A7C2D56AC3D00A2098C /* 2025FemmeHacksTests.xctest */,
+				3F9A3A862D56AC3D00A2098C /* 2025FemmeHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9A3A6E2D56AC3800A2098C /* 2025FemmeHacks */ = {
+			isa = PBXGroup;
+			children = (
+				3F9A3A6F2D56AC3800A2098C /* _025FemmeHacksApp.swift */,
+				3F9A3A712D56AC3800A2098C /* ContentView.swift */,
+				3F9A3A732D56AC3C00A2098C /* Assets.xcassets */,
+				3F9A3A752D56AC3C00A2098C /* Preview Content */,
+			);
+			path = 2025FemmeHacks;
+			sourceTree = "<group>";
+		};
+		3F9A3A752D56AC3C00A2098C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F9A3A762D56AC3C00A2098C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F9A3A7F2D56AC3D00A2098C /* 2025FemmeHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9A3A802D56AC3D00A2098C /* _025FemmeHacksTests.swift */,
+			);
+			path = 2025FemmeHacksTests;
+			sourceTree = "<group>";
+		};
+		3F9A3A892D56AC3D00A2098C /* 2025FemmeHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9A3A8A2D56AC3D00A2098C /* _025FemmeHacksUITests.swift */,
+				3F9A3A8C2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift */,
+			);
+			path = 2025FemmeHacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9A3A6B2D56AC3800A2098C /* 2025FemmeHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9A3A902D56AC3D00A2098C /* Build configuration list for PBXNativeTarget "2025FemmeHacks" */;
+			buildPhases = (
+				3F9A3A682D56AC3800A2098C /* Sources */,
+				3F9A3A692D56AC3800A2098C /* Frameworks */,
+				3F9A3A6A2D56AC3800A2098C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2025FemmeHacks;
+			productName = 2025FemmeHacks;
+			productReference = 3F9A3A6C2D56AC3800A2098C /* 2025FemmeHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9A3A7B2D56AC3D00A2098C /* 2025FemmeHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9A3A932D56AC3D00A2098C /* Build configuration list for PBXNativeTarget "2025FemmeHacksTests" */;
+			buildPhases = (
+				3F9A3A782D56AC3D00A2098C /* Sources */,
+				3F9A3A792D56AC3D00A2098C /* Frameworks */,
+				3F9A3A7A2D56AC3D00A2098C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9A3A7E2D56AC3D00A2098C /* PBXTargetDependency */,
+			);
+			name = 2025FemmeHacksTests;
+			productName = 2025FemmeHacksTests;
+			productReference = 3F9A3A7C2D56AC3D00A2098C /* 2025FemmeHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9A3A852D56AC3D00A2098C /* 2025FemmeHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9A3A962D56AC3D00A2098C /* Build configuration list for PBXNativeTarget "2025FemmeHacksUITests" */;
+			buildPhases = (
+				3F9A3A822D56AC3D00A2098C /* Sources */,
+				3F9A3A832D56AC3D00A2098C /* Frameworks */,
+				3F9A3A842D56AC3D00A2098C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9A3A882D56AC3D00A2098C /* PBXTargetDependency */,
+			);
+			name = 2025FemmeHacksUITests;
+			productName = 2025FemmeHacksUITests;
+			productReference = 3F9A3A862D56AC3D00A2098C /* 2025FemmeHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9A3A642D56AC3800A2098C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3F9A3A6B2D56AC3800A2098C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3F9A3A7B2D56AC3D00A2098C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F9A3A6B2D56AC3800A2098C;
+					};
+					3F9A3A852D56AC3D00A2098C = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3F9A3A6B2D56AC3800A2098C;
+					};
+				};
+			};
+			buildConfigurationList = 3F9A3A672D56AC3800A2098C /* Build configuration list for PBXProject "2025FemmeHacks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F9A3A632D56AC3800A2098C;
+			productRefGroup = 3F9A3A6D2D56AC3800A2098C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9A3A6B2D56AC3800A2098C /* 2025FemmeHacks */,
+				3F9A3A7B2D56AC3D00A2098C /* 2025FemmeHacksTests */,
+				3F9A3A852D56AC3D00A2098C /* 2025FemmeHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9A3A6A2D56AC3800A2098C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A3A772D56AC3C00A2098C /* Preview Assets.xcassets in Resources */,
+				3F9A3A742D56AC3C00A2098C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A3A7A2D56AC3D00A2098C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A3A842D56AC3D00A2098C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9A3A682D56AC3800A2098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A3A722D56AC3800A2098C /* ContentView.swift in Sources */,
+				3F9A3A702D56AC3800A2098C /* _025FemmeHacksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A3A782D56AC3D00A2098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A3A812D56AC3D00A2098C /* _025FemmeHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9A3A822D56AC3D00A2098C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9A3A8D2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift in Sources */,
+				3F9A3A8B2D56AC3D00A2098C /* _025FemmeHacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9A3A7E2D56AC3D00A2098C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9A3A6B2D56AC3800A2098C /* 2025FemmeHacks */;
+			targetProxy = 3F9A3A7D2D56AC3D00A2098C /* PBXContainerItemProxy */;
+		};
+		3F9A3A882D56AC3D00A2098C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9A3A6B2D56AC3800A2098C /* 2025FemmeHacks */;
+			targetProxy = 3F9A3A872D56AC3D00A2098C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F9A3A8E2D56AC3D00A2098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F9A3A8F2D56AC3D00A2098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9A3A912D56AC3D00A2098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2025FemmeHacks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KwK.-025FemmeHacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F9A3A922D56AC3D00A2098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2025FemmeHacks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KwK.-025FemmeHacks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F9A3A942D56AC3D00A2098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KwK.-025FemmeHacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2025FemmeHacks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2025FemmeHacks";
+			};
+			name = Debug;
+		};
+		3F9A3A952D56AC3D00A2098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KwK.-025FemmeHacksTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2025FemmeHacks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2025FemmeHacks";
+			};
+			name = Release;
+		};
+		3F9A3A972D56AC3D00A2098C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KwK.-025FemmeHacksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2025FemmeHacks;
+			};
+			name = Debug;
+		};
+		3F9A3A982D56AC3D00A2098C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KwK.-025FemmeHacksUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 2025FemmeHacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9A3A672D56AC3800A2098C /* Build configuration list for PBXProject "2025FemmeHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9A3A8E2D56AC3D00A2098C /* Debug */,
+				3F9A3A8F2D56AC3D00A2098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9A3A902D56AC3D00A2098C /* Build configuration list for PBXNativeTarget "2025FemmeHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9A3A912D56AC3D00A2098C /* Debug */,
+				3F9A3A922D56AC3D00A2098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9A3A932D56AC3D00A2098C /* Build configuration list for PBXNativeTarget "2025FemmeHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9A3A942D56AC3D00A2098C /* Debug */,
+				3F9A3A952D56AC3D00A2098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9A3A962D56AC3D00A2098C /* Build configuration list for PBXNativeTarget "2025FemmeHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9A3A972D56AC3D00A2098C /* Debug */,
+				3F9A3A982D56AC3D00A2098C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9A3A642D56AC3800A2098C /* Project object */;
+}
