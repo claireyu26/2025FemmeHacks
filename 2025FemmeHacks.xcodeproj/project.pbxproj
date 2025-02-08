@@ -14,6 +14,13 @@
 		3F9A3A812D56AC3D00A2098C /* _025FemmeHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A802D56AC3D00A2098C /* _025FemmeHacksTests.swift */; };
 		3F9A3A8B2D56AC3D00A2098C /* _025FemmeHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A8A2D56AC3D00A2098C /* _025FemmeHacksUITests.swift */; };
 		3F9A3A8D2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A8C2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift */; };
+		3F9A3A9E2D56AD2000A2098C /* HomeScreenLoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3A9D2D56AD2000A2098C /* HomeScreenLoggedIn.swift */; };
+		3F9A3AB62D57908400A2098C /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3AB52D57908400A2098C /* CustomNavigationBar.swift */; };
+		3F9A3AB82D5790AB00A2098C /* GuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3AB72D5790AB00A2098C /* GuideOverlay.swift */; };
+		3F9A3ABA2D57B13F00A2098C /* ImagePreprocessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3AB92D57B13F00A2098C /* ImagePreprocessing.swift */; };
+		3F9A3AC02D57B2D300A2098C /* waste_classifier.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A3ABF2D57B2D300A2098C /* waste_classifier.tflite */; };
+		3F9A3AC12D57B2FB00A2098C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3ABB2D57B28A00A2098C /* ViewController.swift */; };
+		3F9A3AC22D57B2FC00A2098C /* WasteClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A3ABD2D57B2A000A2098C /* WasteClassifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		3F9A3A862D56AC3D00A2098C /* 2025FemmeHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2025FemmeHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9A3A8A2D56AC3D00A2098C /* _025FemmeHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _025FemmeHacksUITests.swift; sourceTree = "<group>"; };
 		3F9A3A8C2D56AC3D00A2098C /* _025FemmeHacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _025FemmeHacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F9A3A9D2D56AD2000A2098C /* HomeScreenLoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenLoggedIn.swift; sourceTree = "<group>"; };
+		3F9A3AB52D57908400A2098C /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		3F9A3AB72D5790AB00A2098C /* GuideOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideOverlay.swift; sourceTree = "<group>"; };
+		3F9A3AB92D57B13F00A2098C /* ImagePreprocessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreprocessing.swift; sourceTree = "<group>"; };
+		3F9A3ABB2D57B28A00A2098C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F9A3ABD2D57B2A000A2098C /* WasteClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteClassifier.swift; sourceTree = "<group>"; };
+		3F9A3ABF2D57B2D300A2098C /* waste_classifier.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = waste_classifier.tflite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +109,15 @@
 			isa = PBXGroup;
 			children = (
 				3F9A3A6F2D56AC3800A2098C /* _025FemmeHacksApp.swift */,
+				3F9A3A9D2D56AD2000A2098C /* HomeScreenLoggedIn.swift */,
+				3F9A3AB52D57908400A2098C /* CustomNavigationBar.swift */,
+				3F9A3AB72D5790AB00A2098C /* GuideOverlay.swift */,
 				3F9A3A712D56AC3800A2098C /* ContentView.swift */,
+				3F9A3ABB2D57B28A00A2098C /* ViewController.swift */,
+				3F9A3ABF2D57B2D300A2098C /* waste_classifier.tflite */,
+				3F9A3AB92D57B13F00A2098C /* ImagePreprocessing.swift */,
 				3F9A3A732D56AC3C00A2098C /* Assets.xcassets */,
+				3F9A3ABD2D57B2A000A2098C /* WasteClassifier.swift */,
 				3F9A3A752D56AC3C00A2098C /* Preview Content */,
 			);
 			path = 2025FemmeHacks;
@@ -215,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 3F9A3A632D56AC3800A2098C;
+			packageReferences = (
+				3F9A3AC32D57C15D00A2098C /* XCRemoteSwiftPackageReference "tensorflow" */,
+			);
 			productRefGroup = 3F9A3A6D2D56AC3800A2098C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9A3A772D56AC3C00A2098C /* Preview Assets.xcassets in Resources */,
+				3F9A3AC02D57B2D300A2098C /* waste_classifier.tflite in Resources */,
 				3F9A3A742D56AC3C00A2098C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9A3AB62D57908400A2098C /* CustomNavigationBar.swift in Sources */,
+				3F9A3AC22D57B2FC00A2098C /* WasteClassifier.swift in Sources */,
+				3F9A3AB82D5790AB00A2098C /* GuideOverlay.swift in Sources */,
+				3F9A3A9E2D56AD2000A2098C /* HomeScreenLoggedIn.swift in Sources */,
 				3F9A3A722D56AC3800A2098C /* ContentView.swift in Sources */,
+				3F9A3AC12D57B2FB00A2098C /* ViewController.swift in Sources */,
+				3F9A3ABA2D57B13F00A2098C /* ImagePreprocessing.swift in Sources */,
 				3F9A3A702D56AC3800A2098C /* _025FemmeHacksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +613,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F9A3AC32D57C15D00A2098C /* XCRemoteSwiftPackageReference "tensorflow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tensorflow/tensorflow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 3F9A3A642D56AC3800A2098C /* Project object */;
 }
